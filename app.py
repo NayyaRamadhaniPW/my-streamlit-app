@@ -237,7 +237,7 @@ def sidebar_menu_item(icon, label, menu_id):
 def load_data():
     try:
         # Update this path to your actual dataset path - for demo purposes, we'll create a synthetic dataset
-        return pd.read_excel("/Users/Nayya/Desktop/SKRIPSI/my-streamlit-app/data/all-data.xlsx")
+        return pd.read_excel("/data/all-data.xlsx")
         
         # Create a synthetic dataset for demonstration
         date_range = pd.date_range(start='2023-01-01', end='2025-05-01', freq='D')
