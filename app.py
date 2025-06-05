@@ -637,8 +637,8 @@ def show_dashboard():
               
             col1, col2 = st.columns(2)
             with col1:
-                st.image("images\DNA-Q1.png", caption="Dynamic Network Analysis Quarter 1")
-                st.image("images\DNA-Q3.png", caption="Dynamic Network Analysis Quarter 3") 
+                st.image("images/DNA-Q1.png", caption="Dynamic Network Analysis Quarter 1")
+                st.image("images/DNA-Q3.png", caption="Dynamic Network Analysis Quarter 3") 
                 # Display data table
                 st.subheader('Daily Upload Counts')
                 
