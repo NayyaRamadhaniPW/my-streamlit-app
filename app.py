@@ -1163,6 +1163,61 @@ def show_faq():
     st.markdown('<h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>', unsafe_allow_html=True)
     st.markdown('<p class="welcome-text">Find answers to common questions about social network analysis and how to interpret the results.</p>', unsafe_allow_html=True)
     
+
+    st.markdown("<h3>What is the difference between  Social Network Analysis (SNA) and Dynamic Networok Analysis (DNA)?</h3>", unsafe_allow_html=True)
+    st.write("""
+    Social Network Analysis (SNA) focuses on analyzing network structures at a specific point in time,
+    so the results are static. On the other hand, DNA shows how relationships between nodes change over time,
+    so you can analyze network dynamics. With thismethod, you can identify changes in network structures,
+    including node shifts or node dominance over time.
+    """)
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("<h3>Why should I use Dynamic Network Analysis (DNA)?</h3>", unsafe_allow_html=True)
+    st.write("""
+    With DNA, we can see shifts in the roles of important nodes(key-playrs), the growth of new connections,
+    or network fragmentation within a specific period. This helps us understand network dynamics in real time
+    and supports more adaptive strategic planning. 
+    """)
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("<h3>How can SNA help my case study?</h3>", unsafe_allow_html=True)
+    st.write("""
+    SNA helps identify the most influential actors or nodes, communication patterns, and potential effective information routes.
+    This can be used for decision-making by companies or organizations.
+    """)
+    st.markdown('</div>', unsafe_allow_html=True)
+    
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("<h3>What are the centrality measures used here?</h3>", unsafe_allow_html=True)
+    st.write("""
+    Centrality measures are used to calculate how important a node's position is in a network. 
+    Some of the centrality measures used here are Degree Centrality (the number of nodes directly connected),
+    Betweenness Centrality (how often a node acts as an intermediary or bridge), and Closeness Centrality (how quickly
+    a node can reach other nodes)
+    """)
+    st.markdown('</div>', unsafe_allow_html=True)
+    
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("<h3>Where does the network data come from?</h3>", unsafe_allow_html=True)
+    st.write("""
+    The data was collected by crawling tweets from Twitter and directly from the company's website.
+    """)
+    st.markdown('</div>', unsafe_allow_html=True) 
+    
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("<h3>How can insights from SNA/DNA support decision-making?</h3>", unsafe_allow_html=True)
+    st.write("""
+    Insights from SNA and DNA can help organizations/companies understand interaction patterns,
+    identify key actors, and see significant changes in networks between periods. This information can support
+    data-driven decision making, like optimizing marketing strategies, managing risk, or developing more effective
+    collaborations.
+    """)
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    st.markdown('<div class="card">', unsafe_allow_html=True)
     st.markdown("<h3>How to use the date range selection?</h3>", unsafe_allow_html=True)
     st.write("""
     1. Go to the Dashboard page
