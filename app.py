@@ -692,58 +692,63 @@ def show_dashboard():
                 
                 st.markdown('</div>', unsafe_allow_html=True)
                 st.subheader("Degree Centrality") 
-                dc_data_q1 = {  'Node': [
+                dc_data_q1 = { 'Node': [
                     'convomf',
                     'tanyakanrl',
-                    'intiaraandini',
                     'tanyarlfes',
-                    'TriNingsih35714',
+                    'Mahalinidisini',
                     'starfess',
-                    'utokki_u',
-                    'asheladz',
-                    'MUSIKMENFESS',
-                    'GeronimoFM'
-                ], 'Degree': [
-                    48,
+                    'initiaraandini',
+                    'ssefnum',
+                    'eudelienta',
+                    'tinkerabels',
+                    'utokki_u'
+                ], 
+                'Degree': [
+                    111,
+                    62,
+                    27,
                     20,
                     16,
                     16,
-                    12,
-                    9,
-                    8,
-                    6,
-                    7,
-                    6
-                ] }
+                    15,
+                    14,
+                    13,
+                    12
+                ] 
+            }
                 dc_data_q1 = pd.DataFrame(dc_data_q1)
                 st.dataframe( dc_data_q1,use_container_width=True, hide_index=False)
             with dc2:
                 st.markdown('</div>', unsafe_allow_html=True)
                 st.subheader("Betwennes Centrality") 
-                bc_data_q1 = {'Node': [
-                    'convomf',
-                    'tanyakanrl',
-                    'saputelbang',
-                    'tanyarlfes',
-                    'initiaraandini',
-                    'glassesofTiara',
-                    'catuwagapat',
-                    'bobocuuu',
-                    'starfess',
-                    'timutttt'
-                ], 'Betweenness Centrality': [
-                    0.011573546273950472,
-                    0.006000305986980747,
-                    0.002704420415144269,
-                    0.0022662777670846845,
-                    0.0016399915113289212,
-                    0.0015834003708035777,
-                    0.0015792328061912453,
-                    0.001579232806191245,
-                    0.0014629796880577888,
-                    0.001417904186592835
-                ]
-            }
+                # Hasil konversi dalam format dictionary
+                bc_data_q1 = {  
+                    'Node': [
+                        'convomf',
+                        'tanyakanrl',
+                        'saputelbang',
+                        'tanyarlfes',
+                        'initiaraandini',
+                        'glassesofTiara',
+                        'catuwagapat',
+                        'bobocuuu',
+                        'starfess',
+                        'timutttt'
+                    ], 
+                    'Degree': [
+                        0.011488764784910831,
+                        0.0059110007639419405,
+                        0.0026124399603101403,
+                        0.0021739416769842733,
+                        0.0015471470719949424,
+                        0.0014905099971022893,
+                        0.0014863390497264716,
+                        0.0014863390497264716,
+                        0.00136999157029583,
+                        0.0013248794815731936
+                    ] 
+                }
                 bc_data_q1 = pd.DataFrame(bc_data_q1)
                 st.dataframe(bc_data_q1, use_container_width=True, hide_index=False)
             with dc3: 
@@ -789,58 +794,64 @@ def show_dashboard():
                
                 st.markdown('</div>', unsafe_allow_html=True) 
                 st.subheader("Degree Centrality")
-                dc_data_q2 = { 'Node': [
-                    'convomf',
-                    'tanyakanrl',
-                    'tanyarlfes',
-                    'samsungID',
-                    'starfess',
-                    'initiaraandini',
-                    'MUSIKMENFESS',
-                    'TriNingsih35714',
-                    'ssefnum',
-                    'utokki_u'
-                ], 'Degree': [ 122,
-                    73,
-                    35,
-                    35,
-                    34,
-                    29,
-                    27,
-                    19,
-                    11,
-                    9
-                ] }
+                dc_data_q2 = {  
+                    'Node': [
+                        'convomf',
+                        'tanyakanrl',
+                        'kegblgnunfaedh',
+                        'tanyarlfes',
+                        'starfess',
+                        'MUSIKMENFESS',
+                        'Mahalinidisini',
+                        'samsungID',
+                        'ssefnum',
+                        'initiaraandini'
+                    ], 
+                    'Degree': [
+                        421,
+                        239,
+                        102,
+                        100,
+                        82,
+                        42,
+                        39,
+                        35,
+                        33,
+                        29
+                    ] 
+                }               
                 dc_data_q2 = pd.DataFrame(dc_data_q2)
                 st.dataframe( dc_data_q2,use_container_width=True, hide_index=False)
 
             with bc2:    
                 st.markdown('</div>', unsafe_allow_html=True)
                 st.subheader("Betwennes Centrality") 
-                bc_data_q2 = {'Node': [
-                    'convomf',
-                    'tanyakanrl',
-                    'tanyarlfes',
-                    'officialinews_',
-                    'kegblgnunfaedh',
-                    'starfess',
-                    'SINDOnews',
-                    'UJunami',
-                    'tinkerabels',
-                    'initiaraandini'
-                ], 'Betweenness Centrality': [
-                    0.031500407855135935,
-                    0.02157915306753696,
-                    0.015054599217465726,
-                    0.011237237386253734,
-                    0.007407745016545971,
-                    0.006494280579700272,
-                    0.005257966012799024,
-                    0.004365858607107508,
-                    0.004297688393710585,
-                    0.004137795745479149
-                ]
-            }
+                bc_data_q2 = {  
+                    'Node': [
+                        'convomf',
+                        'tanyakanrl',
+                        'tanyarlfes',
+                        'officialinews_',
+                        'kegblgnunfaedh',
+                        'starfess',
+                        'SINDOnews',
+                        'UJunami',
+                        'tinkerabels',
+                        'initiaraandini'
+                    ], 
+                    'Degree': [
+                        0.031442252224304336,
+                        0.021518143631214893,
+                        0.014991713021802355,
+                        0.011173253143177391,
+                        0.00734265923676037,
+                        0.006428932045869842,
+                        0.005192261858497747,
+                        0.004299897842017884,
+                        0.0042317080197576224,
+                        0.004071769379106158
+                    ] 
+                }
                 bc_data_q2 = pd.DataFrame(bc_data_q2)
                 st.dataframe(bc_data_q2, use_container_width=True, hide_index=False)
             with bc3:    
@@ -884,61 +895,65 @@ def show_dashboard():
                 
                 st.markdown('</div>', unsafe_allow_html=True)
                 st.subheader("Degree Centrality")
-                dc_data_q3= {'Node': [
-                    'convomf',
-                    'tanyakanrl',
-                    'tanyarlfes',
-                    'starfess',
-                    'initiaraandini',
-                    'samsungID',
-                    'MUSIKMENFESS',
-                    'sapicapek',
-                    'TriNingsih35714',
-                    'lattenest'
-                ], 'Degree': [ 143,
-                        86,
-                        48,
-                        45,
-                        35,
-                        35,
-                        31,
-                        22,
-                        19,
-                        19
-                    ]  }
-                
+                dc_data_q3 = {  
+                    'Node': [
+                        'convomf',
+                        'tanyakanrl',
+                        'tanyarlfes',
+                        'kegblgnunfaedh',
+                        'starfess',
+                        'kabarheboh01',
+                        'MUSIKMENFESS',
+                        'Mahalinidisini',
+                        'SakuraRelapse',
+                        'initiaraandini'
+                    ], 
+                    'Degree': [
+                        475,
+                        269,
+                        150,
+                        115,
+                        104,
+                        75,
+                        56,
+                        44,
+                        39,
+                        35
+                    ] 
+                }
                 dc_data_q3 = pd.DataFrame(dc_data_q3)
                 st.dataframe( dc_data_q3,use_container_width=True, hide_index=False)
 
             with ac2:
                 st.markdown('</div>', unsafe_allow_html=True)
                 st.subheader("Betwenness Centrality")
-                
-                bc_data_q3 = { 'Node': [
-                    'convomf',
-                    'tanyakanrl',
-                    'officialinews_',
-                    'tanyarlfes',
-                    'starfess',
-                    'SINDOnews',
-                    'kegblgnunfaedh',
-                    'kabarheboh01',
-                    'storyfeyy',
-                    'initiaraandini'
-                ],
-                'Betweenness Centrality': [
-                    0.028682194819235927,
-                    0.019994682532578103,
-                    0.011793622310036297,
-                    0.009066025624710558,
-                    0.007883871828336697,
-                    0.0061060127040521986,
-                    0.00582389403814127,
-                    0.004048430061740712,
-                    0.003991619731069094,
-                    0.0034074207154897312
-                ]
-            }
+                # Hasil konversi dalam format dictionary
+                bc_data_q3 = {  
+                    'Node': [
+                        'convomf',
+                        'tanyakanrl',
+                        'officialinews_',
+                        'tanyarlfes',
+                        'starfess',
+                        'SINDOnews',
+                        'kegblgnunfaedh',
+                        'kabarheboh01',
+                        'storyfeyy',
+                        'initiaraandini'
+                    ], 
+                    'Degree': [
+                        0.028643469573382936,
+                        0.01995435693445714,
+                        0.011751785970417214,
+                        0.009023686826459208,
+                        0.00784131526204695,
+                        0.006063128633088182,
+                        0.00578095799726552,
+                        0.004005166957407937,
+                        0.003948346161537709,
+                        0.003364039528934205
+                    ] 
+                }
                 bc_data_q3 = pd.DataFrame(bc_data_q3)
                 st.dataframe(bc_data_q3, use_container_width=True, hide_index=False)
             with ac3: 
@@ -985,59 +1000,64 @@ def show_dashboard():
                 st.markdown('</div>', unsafe_allow_html=True)
                 
                 st.subheader("Degree Centrality")
-                dc_data_q4 = {'Node': [
-                    'convomf',
-                    'tanyakanrl',
-                    'tanyarlfes',
-                    'starfess',
-                    'initiaraandini',
-                    'samsungID',
-                    'MUSIKMENFESS',
-                    'sapicapek',
-                    'TriNingsih35714',
-                    'lattenest'
-                ], 'Degree': [  143,
-                        86,
-                        48,
-                        45,
-                        35,
-                        35,
-                        31,
-                        22,
-                        19,
-                        19
-                    ]  }
+                dc_data_q4 = {  
+                    'Node': [
+                        'convomf',
+                        'tanyakanrl',
+                        'tanyarlfes',
+                        'kegblgnunfaedh',
+                        'starfess',
+                        'MUSIKMENFESS',
+                        'kabarheboh01',
+                        'sbyfess',
+                        'IndoPopBase',
+                        'Mahalinidisini'
+                    ], 
+                    'Degree': [
+                        510,
+                        304,
+                        166,
+                        126,
+                        120,
+                        85,
+                        75,
+                        49,
+                        46,
+                        44
+                    ] 
+                }
                 dc_data_q4 = pd.DataFrame(dc_data_q4)
                 st.dataframe( dc_data_q4,use_container_width=True, hide_index=False)      
             with cc2:
                 st.markdown('</div>', unsafe_allow_html=True)
                 
                 st.subheader("Betweenness Centrality ")
-                bc_data_q4 = {   'Node': [
-                    'convomf',
-                    'tanyakanrl',
-                    'officialinews_',
-                    'tanyarlfes',
-                    'starfess',
-                    'storyfeyy',
-                    'kegblgnunfaedh',
-                    'SINDOnews',
-                    'MUSIKMENFESS',
-                    'initiaraandini'
-                ],
-                'Betweenness Centrality': [
-                    0.030855018913457398,
-                    0.01983779661382058,
-                    0.010995946652774237,
-                    0.009008250799191963,
-                    0.008306174859575594,
-                    0.006938282014006021,
-                    0.0065499778671681795,
-                    0.0055993583286631406,
-                    0.005157214421971011,
-                    0.003723017484643857
-                ]
-            }
+                bc_data_q4 = {  
+                    'Node': [
+                        'convomf',
+                        'tanyakanrl',
+                        'officialinews_',
+                        'tanyarlfes',
+                        'starfess',
+                        'storyfeyy',
+                        'kegblgnunfaedh',
+                        'SINDOnews',
+                        'MUSIKMENFESS',
+                        'initiaraandini'
+                    ], 
+                    'Degree': [
+                        0.030820891335969002,
+                        0.01980199162733408,
+                        0.010958795465014734,
+                        0.008970796978080819,
+                        0.008268614145050987,
+                        0.006900513033213817,
+                        0.006512149765768965,
+                        0.005561385492255017,
+                        0.005119174267672106,
+                        0.0036847589690573003
+                    ] 
+                }
                 bc_data_q4 = pd.DataFrame(bc_data_q4)
                 st.dataframe(bc_data_q4, use_container_width=True, hide_index=False)
             
