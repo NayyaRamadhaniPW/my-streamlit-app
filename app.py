@@ -1164,7 +1164,7 @@ def show_faq():
     st.markdown('<p class="welcome-text">Find answers to common questions about social network analysis and how to interpret the results.</p>', unsafe_allow_html=True)
     
 
-    st.markdown("<h3>What is the difference between  Social Network Analysis (SNA) and Dynamic Networok Analysis (DNA)?</h3>", unsafe_allow_html=True)
+    st.markdown("<h3>What is the difference between  Social Network Analysis (SNA) and Dynamic Network Analysis (DNA)?</h3>", unsafe_allow_html=True)
     st.write("""
     Social Network Analysis (SNA) focuses on analyzing network structures at a specific point in time,
     so the results are static. On the other hand, DNA shows how relationships between nodes change over time,
